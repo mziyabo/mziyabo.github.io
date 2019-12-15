@@ -25,14 +25,14 @@
 }
 
 .site-nav {
-  display: flex;
+  display: inline;
   justify-content: center;
   font-family: "Lato", serif;
   font-size: 1.1rem;
 }
 
 .site-title {
-  text-align: center;
+  text-align: left;
 }
 
 .site-nav a {
@@ -68,6 +68,7 @@
 
   .site-title {
     margin-bottom: $spacer1;
+    text-align: left;
   }
 
   .site-nav a {
