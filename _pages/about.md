@@ -17,7 +17,18 @@ permalink: /about/
 </figure>
 {:/}
 
-I'm [mziyabo](/). I work for Amazon AWS. I write [articles](articles/) -all my thoughts and opinions and not those of my employer. Currently working on these [projects](/projects) both presently and in the future.
+Hi, I'm mziyabo. I work at Amazon AWS. 
+I write [articles](/articles) and do some [projects](/projects) in my off time
+Professionally, I have worked with:
+- C#
+- TypeScript
+- AWS Cloud
+- Microsoft Dynamics and a smorgasbord of Microsoft Server technologies
+- Linux, PowerShell and NodeJs
+
+Away from work you'll find me rooting for the Boston Celtics ☘
+
+Contact me at mziyabo@live.com.
 
 </div>
 

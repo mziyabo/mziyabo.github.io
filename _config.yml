@@ -31,9 +31,9 @@ navigation:
   - title: Projects
     url: /projects/
     desc: Projects
-  - title: About
-    url: /about/
-    desc: About me
+  # - title: About
+  #   url: /about/
+  #   desc: About me
   # - title: Work
   #   url: /work/
   #   desc: My work
