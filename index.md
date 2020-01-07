@@ -13,9 +13,7 @@ layout: default
 </figure>
 {:/}
 
-Hi, I'm mziyabo. I work at Amazon AWS. 
-I write [articles](/articles) and do some [projects](/projects) in my off time
-Professionally, I have worked with:
+Hi, I'm mziyabo. I write [articles](/articles) and do some [projects](/projects) in my off time. Professionally, I have worked with:
 - C#
 - TypeScript
 - AWS Cloud
