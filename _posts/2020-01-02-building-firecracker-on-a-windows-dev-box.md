@@ -3,14 +3,14 @@ layout: post
 title: "Building Firecracker on Windows"
 description: ""
 category: "Firecracker"
-tags: []
+tags: [Firecracker, Rust]
 ---
 
 [Firecracker](https://github.com/firecracker-microvm/firecracker) is a virtual machine monitor used to create micro-vms.
 
-Turns out the [build scripts](https://github.com/firecracker-microvm/firecracker/blob/master/tools/devtool) assume you're working on a Linux dev box- Fortunately though the Firecracker builds are dockerized meaning Windows could be used as a dev environment.
+In an attempt to learn it and also learn [Rust](https://www.rust-lang.org/) I cloned the project however it turned out the Firecracker [build scripts](https://github.com/firecracker-microvm/firecracker/blob/master/tools/devtool) assume you're working on a Linux dev box- Fortunately though the builds are dockerized meaning Windows could be used as a dev environment.
 
-The quick and dirty workaround to getting the builds running was to enable [WSL 2](https://docs.microsoft.com/en-us/windows/WSL/WSL2-install) shipped in Windows 10 builds 18917 or higher. Dirty since you need to sign up to the Windows Insider preview at the time of writing.
+The quick and dirty workaround to getting the builds running (for me) was to enable [WSL 2](https://docs.microsoft.com/en-us/windows/WSL/WSL2-install) shipped in Windows 10 builds 18917 or higher. Dirty since you need to sign up to the Windows Insider preview at the time of writing.
 
 WSL 2 allows spinning up the docker build container- (previously not possible in WSL 1) while allowing us to execute the build scripts which are written in bash.
 
