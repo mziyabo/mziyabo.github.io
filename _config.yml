@@ -1,11 +1,10 @@
-# The main config file for your Jekyll template
 
 # Site settings
-title:               # used for the html title of every page
-desc: 
+title: bXppeWFibwo= Blog              # used for the html title of every page
+desc:
 url:  'https://mziyabo.github.io'     # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
-permalink: /:year/:title/   # how should we display posts url
+permalink:    # /:year/:title/ how should we display posts url
 
 # Meta settings
 email: mziyabo@live.com
@@ -19,21 +18,21 @@ google_analytics: UA-83600422-1
 
 # Pagination settings
 paginate: 5                           # number of posts to show per page
-paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
+paginate_path: "page:num"  # link scheme for articles, should be letf as is
 
 # Navigation settings
 # Used to define the navigation menu items
 # > Title is the tile of the navigation item, url the url and desc is the tooltip
 navigation:
-  - title: Articles
-    url: /articles/
-    desc: My blog
-  - title: Projects
-    url: /projects/
-    desc: Projects
-  # - title: About
-  #   url: /about/
-  #   desc: About me
+  - title: bXppeWFibwo=
+    url: /
+    desc: Home
+  # - title: Projects
+  #   url: /projects/
+  #   desc: Projects
+  - title: About
+    url: /about/
+    desc: About
   # - title: Work
   #   url: /work/
   #   desc: My work
