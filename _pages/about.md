@@ -2,7 +2,7 @@
 layout: default
 title: About
 subtitle:
-desc: About me.
+desc: About
 permalink: /about/
 ---
 
@@ -12,16 +12,22 @@ permalink: /about/
 </div>
 
 {::nomarkdown} 
-<figure class="site-profile">
-    <!-- <img src="{{ site.baseurl }}/assets/img/profile.png"> -->
-</figure>
+<!-- <figure class="site-profile">
+    <img src="{{ site.baseurl }}/assets/img/profile.png">
+</figure> -->
 {:/}
 
-Hi, I'm mziyabo. I write [articles](/articles) and do some [projects](/projects) in my off time. I have worked as a .NET Developer and currently I'm a Cloud Engineer at AWS.
+Hi, I'm mziyabo. I write [articles](/articles) and do some [projects](#Projects) in my off time. I have worked as a .NET Developer and I'm currently a Cloud Engineer at AWS.
 
-Away from work you'll find me rooting for the Boston Celtics ☘
 
-Contact me at [mziyabo@live.com](mailto:mziyabo@live.com)
+### Projects
 
+- [vscode-codedeploy](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy): VSCode extension to deploy and manage AWS CodeDeploy applications
+- [vscode-sentiment:](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) Extension that performs sentiment analysis on plaintext based on the AFINN word list
+- [Tool.AWS.CodeDeploy](https://www.nuget.org/packages/Tool.AWS.CodeDeploy/): .NET Core Global Tool to deploy
+                applications using AWS CodeDeploy
+
+
+Checkout more on [GitHub](https://github.com/mziyabo) or contact me at mziyabo@live.com.
 </div>
 
