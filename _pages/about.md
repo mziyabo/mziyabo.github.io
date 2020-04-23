@@ -24,6 +24,7 @@ Hi, I'm mziyabo. I write [articles](/articles) and do some [projects](#Projects)
 
 - [vscode-codedeploy](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy): VSCode extension to deploy and manage AWS CodeDeploy applications
 - [vscode-sentiment:](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) Extension that performs sentiment analysis on plaintext based on the AFINN word list
+- [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1): kubectl auto-completion for PowerShell Core
 - [Tool.AWS.CodeDeploy](https://www.nuget.org/packages/Tool.AWS.CodeDeploy/): .NET Core Global Tool to deploy
                 applications using AWS CodeDeploy
 
