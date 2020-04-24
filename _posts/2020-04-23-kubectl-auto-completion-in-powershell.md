@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PowerShell tab-completion for kubectl"
+title: "Kubectl tab-completion for PowerShell"
 description: "kubectl tab-completion in PowerShell"
 category: 
 tags: [PSKubectlCompletion,kubectl,PowerShell,auto-completion,tab-completion]
