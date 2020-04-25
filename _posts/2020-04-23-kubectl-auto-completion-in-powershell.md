@@ -11,10 +11,10 @@ comments: true
 
 To install `PSKubectlCompletion` in PowerShell and register completions run the below commands:
 
-{% highlight PowerShell  %}
+{% highlight powershell %}
 Import-Module -Name PSKubectlCompletion
 Register-KubectlCompletion
-{% endhighlight PowerShell %}
+{% endhighlight powershell %}
 
 After registering, hitting the Tab key for kubectl commands should generate completions.
 
