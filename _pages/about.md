@@ -1,8 +1,8 @@
 ---
 layout: default
-title: About
+title:
 subtitle:
-desc: About
+desc: About mziyabo
 permalink: /about/
 ---
 
@@ -17,7 +17,7 @@ permalink: /about/
 </figure> -->
 {:/}
 
-Hi, I'm mziyabo. I write [articles](/articles) and do some [projects](#Projects) in my off time. I have worked as a .NET Developer and I'm currently a Cloud Engineer at AWS.
+mziyabo's Blog: Cloud Engineer at AWS, .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
 
 
 ### Projects
