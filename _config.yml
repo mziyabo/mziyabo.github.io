@@ -2,7 +2,7 @@
 # Site settings
 title: mziyabo's Blog              # used for the html title of every page
 desc:
-url:  'https://mziyabo.github.io'     # put your website hosting url here
+url:  'https://mziyabo.co'     # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/ #how should we display posts url
 

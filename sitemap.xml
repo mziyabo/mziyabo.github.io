@@ -7,7 +7,7 @@ layout: null
     {% for post in site.posts %}
     <url>
         <loc>{{site.url}}{{ post.url | remove: 'index.html' }}</loc>
-        <lastmod>{{ post.date | date_to_iso8601 }}</lastmod>
+        <lastmod>{{ post.date | default: doc.date | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}
 </urlset>
