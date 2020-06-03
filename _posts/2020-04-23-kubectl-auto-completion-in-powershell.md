@@ -22,4 +22,4 @@ After registering, hitting the Tab key for kubectl commands should generate comp
 
 The completion is done by binding `kubectl.exe` as a Native command in the [Register-ArgumentCompleter](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/register-argumentcompleter?view=powershell-7#outputs) cmdlet.
 
-If you want to take a look at the code or manually install the Module- It's up on [GitHub](https://github.com/mziyabo/PSKubectlCompletion). Give it a try and hit me up if you want to share feedback or contribute.
+If you want to take a look at the code or manually install the Module- It's up on [GitHub](https://github.com/mziyabo/PSKubectlCompletion). Give it a try and hit me up if you want to share feedback or contribute. If you use the `awscli` and would like similar tab-completion checkout [AWSCompleter](https://www.powershellgallery.com/packages/AWSCompleter/) as well.
