@@ -17,7 +17,7 @@ permalink: /about/
 </figure> -->
 {:/}
 
-mziyabo's Blog: Cloud Engineer (AWS), .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
+Mziyabo's blog: I'm a Cloud Engineer (AWS), .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
 
 
 ### Projects

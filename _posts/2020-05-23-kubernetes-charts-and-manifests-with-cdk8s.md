@@ -17,18 +17,16 @@ In Typescript you can declare a Construct that creates a Service `APIObject`/res
 
 ``` typescript
 class MyConstruct extends Construct {
-
-constructor(scope:Construct, name:string) {
-    super(scope, name)
-
-new Service(this, 'service', {
-    spec: {
-        type: 'LoadBalancer',
-        ports: [ { port: 80, targetPort: IntOrString.fromNumber(8080) } ],
-        selector: label
-    }}
-   );
- }
+    constructor(scope:Construct, name:string) {
+        super(scope, name)
+        
+        new Service(this, 'service', {
+        spec: {
+            type: 'LoadBalancer',
+            ports: [{ port: 80, targetPort: IntOrString.fromNumber(8080) }],
+            selector: label
+        }});
+    }
 }
 ```
 
