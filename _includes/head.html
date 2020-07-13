@@ -12,9 +12,9 @@
 
   <!-- SEO metas -->
   <meta name="description" content="{% if page.desc %}{{ page.desc }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.desc }}{% endif %}">
+  <meta name="author" content="Mziyabo Singwango">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,400i,700" rel="stylesheet">
 
   <!-- Favicons -->
@@ -33,6 +33,6 @@
   <meta property="og:site_name" content="Mziyabo's blog">
   <meta property="og:title" content="Mziyabo's blog">
   <meta property="og:description" content="Industry Learnings, projects and some outside-of work interests">
-  <meta property="og:image" content="http://mziyabo.co/assets/img/og-image.png">
+  <meta property="og:image" content="http://mziyabo.co/assets/img/og-image.PNG">
   <meta property="og:locale" content="en_US">
 </head>
