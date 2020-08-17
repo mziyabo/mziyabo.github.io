@@ -66,9 +66,9 @@ In the example, two separates Constructs, `XRayApp` and `Redis` are combined int
 
 The advantages of the cdk8s approach include:
 
-- Composability of multiple `Constructs` into Charts that can be deployed to Kubernetes. 
-- Additionally, as this is all just `Python` or `Typescript` you can add unit-tests to say check if every container in a DaemoneSet has resource limits defined- not easily done with plain YAML. 
-- And if your're passing all this through a CI/CD workflow ([GitOps](https://www.weave.works/blog/what-is-gitops-really)) it can give some control over what get's deployed without deferring that to an K8s admission Controller or other Policy Engine which makes it a day one task.
+- Reusability and Composability of multiple `Constructs` into Charts that can be deployed to Kubernetes. 
+- Testing: As this is all just `Python` or `Typescript` you can add unit-tests to say check if every container in a DaemoneSet has resource limits defined- not easily done with plain YAML. 
+- ([GitOps](https://www.weave.works/blog/what-is-gitops-really)): If your're passing all this through a CI/CD workflow it can give some control over what get's deployed.
 
 It's a lot easier perhaps taking a look at a sample e.g. the [Github repo for cdk8s-xray](https://github.com/mziyabo/cdk8s-xray) (because I wrote it 👹). There are other great examples [here](https://github.com/dungahk/awesome-cdk8s) as well.
 
