@@ -17,7 +17,7 @@ permalink: /about/
 </figure> -->
 {:/}
 
-Mziyabo's blog: I'm a Cloud Engineer (AWS), .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
+Hello there 👋🏽. My name is Mziyabo, I'm a Cloud Engineer, .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
 
 
 ### Projects
@@ -30,6 +30,6 @@ Mziyabo's blog: I'm a Cloud Engineer (AWS), .NET Developer and Boston Celtics fa
                 applications using AWS CodeDeploy
 
 
-Checkout more on [GitHub](https://github.com/mziyabo) or contact me at mziyabo@live.com.
+Checkout more on [GitHub](https://github.com/mziyabo) or contact me at [mziyabo@live.com](mailto:mziyabo@live.com).
 </div>
 
