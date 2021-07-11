@@ -7,7 +7,7 @@ tags: ["argocd","kubernetes","aws secrets manager","python"]
 comments: true
 ---
 
-**TLDR:** I wrote an Argo CD plugin that does dynamic placeholder replacement of secrets at deployment time from [AWS Secrets Manager(https://aws.amazon.com/secrets-manager/). Installation and usage are [on GitHub](https://github.com/mziyabo/argocd-aws-secret-plugin).
+**TLDR:** I wrote an Argo CD plugin that does dynamic placeholder replacement of secrets at deployment time from [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/). Installation and usage are [on GitHub](https://github.com/mziyabo/argocd-aws-secret-plugin).
 
 Now, a bit of background:
 
