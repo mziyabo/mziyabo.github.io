@@ -17,8 +17,7 @@ permalink: /about/
 </figure> -->
 {:/}
 
-Hello there 👋🏽. My name is Mziyabo, I'm a Cloud Engineer, .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) on the side.
-
+Hello there 👋🏽. My name is Mziyabo, I'm a Cloud Engineer, .NET Developer and Boston Celtics fan. I write [articles](/articles) and do some [projects](#Projects) in my spare time.
 
 ### Projects
 
@@ -26,8 +25,8 @@ Hello there 👋🏽. My name is Mziyabo, I'm a Cloud Engineer, .NET Developer a
 - [vscode-sentiment:](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) Extension that performs sentiment analysis on plaintext based on the AFINN word list
 - [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1): kubectl auto-completion for PowerShell Core
 - [cdk8s-xray](https://www.npmjs.com/package/cdk8s-xray): `cdk8s` Construct to synthesize AWS X-Ray api-resources
-- [Tool.AWS.CodeDeploy](https://www.nuget.org/packages/Tool.AWS.CodeDeploy/): .NET Core Global Tool to deploy
-                applications using AWS CodeDeploy
+- [argocd-aws-secret-plugin](https://github.com/mziyabo/argocd-aws-secret-plugin): Argo CD - AWS Secret Manager Plugin
+- [Tool.AWS.CodeDeploy](https://www.nuget.org/packages/Tool.AWS.CodeDeploy/): .NET Core Global Tool to deploy applications using AWS CodeDeploy
 
 
 Checkout more on [GitHub](https://github.com/mziyabo) or contact me at [mziyabo@live.com](mailto:mziyabo@live.com).
