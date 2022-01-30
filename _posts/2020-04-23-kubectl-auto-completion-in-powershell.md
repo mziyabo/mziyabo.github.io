@@ -7,6 +7,11 @@ tags: [PSKubectlCompletion,kubectl,PowerShell,auto-completion,tab-completion]
 comments: true
 ---
 
+⛔**update:** [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/) is no longer actively developed. [kubectl has added PowerShell completion](https://kubernetes.io/docs/tasks/tools/included/optional-kubectl-configs-pwsh/) which you can now use. Thank you to everybody who contributed and used the project 🖖🏽.
+
+---
+<br/>
+
 [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) has been shipping command completers for bash and ZSH for a while now.  After taking a peek at the bash completion code I wrote a PowerShell port which I published as the [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/) Module in the `PSGallery`.
 
 To install `PSKubectlCompletion` in PowerShell and register completions run the below commands:
