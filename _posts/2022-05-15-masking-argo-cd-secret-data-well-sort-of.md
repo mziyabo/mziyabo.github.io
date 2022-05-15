@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Masking Argo CD secret data.."
-description: "Masking Argo CD sensitive data with a masking-cluster proxy"
+description: "Masking sensitive data in the Argo CD UI using a proxy"
 category: 
-tags: ["argocd", ""]
+tags: ["argocd"]
 comments: true
 ---
 
