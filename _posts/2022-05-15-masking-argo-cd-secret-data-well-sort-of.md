@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Masking Argo CD secret data.."
+title: "Masking secret-like data in the Argo CD UI"
 description: "Masking sensitive data in the Argo CD UI using a proxy"
 category: 
 tags: ["argocd"]
