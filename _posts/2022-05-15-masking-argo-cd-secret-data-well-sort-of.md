@@ -2,7 +2,7 @@
 layout: post
 title: "Masking secret data in the Argo CD UI"
 description: "Masking sensitive data in the Argo CD UI using a proxy"
-category: 
+category:
 tags: ["argocd"]
 comments: true
 ---
@@ -36,7 +36,7 @@ The installation creates an Argo CD cluster which is visible from `Settings/Clus
 
 The masking rules are added via a ConfigMap which is also deployed in the Helm Chart. The properties in the ConfigMap are explained in the project [README](https://github.com/mziyabo/argocd-masking-proxy#configuration).
 
-### Usage 
+### Usage
 
 Detailed usage is available from the [masking-proxy repository](https://github.com/mziyabo/argocd-masking-proxy#example). In short, the sample creates an Argo CD application which uses the masking-proxy address as the destination server:
 
@@ -98,6 +98,6 @@ One other outcome was that we'd created a persistent out-of-sync scenario where 
 
 ### Conclusion
 
-I think perhaps masking at the UI and not the Kubernetes API server level would be best moving forward. That could involve application middleware in the Argo CD server source for example. 
+I think perhaps masking at the UI and not the Kubernetes API server level would be best moving forward. That could involve application middleware in the Argo CD server source for example.
 
 The goose chase/rabbit-hole ends here.
