@@ -17,18 +17,27 @@ permalink: /about/
 </figure> -->
 {:/}
 
-Hello 👋🏽. My name is Mziyabo, I'm a Software Engineer and Boston Celtics fan. I [blog](/articles) and do some [projects](#Projects) in my spare time.
-
-### Projects
-
-- [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1): kubectl auto-completion for PowerShell Core
-- [argocd-aws-secret-plugin](https://github.com/mziyabo/argocd-aws-secret-plugin): Argo CD - AWS Secret Manager Plugin
-- [cdk8s-xray](https://www.npmjs.com/package/cdk8s-xray): `cdk8s` Construct to synthesize AWS X-Ray api-resources
-- [vscode-codedeploy](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy): VSCode extension to deploy and manage AWS CodeDeploy applications
-- [vscode-sentiment:](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) Extension that performs sentiment analysis on plaintext based on the AFINN word list
-- [headless-sso](https://pkg.go.dev/github.com/mziyabo/headless-sso): Runs aws sso login headlessly 
+Hello 👋🏽, My name is Mziyabo - I'm a Software Engineer and an avid Boston Celtics fan. I [blog here](/articles), and have written a few Open Source projects which you can also checkout on [GitHub](https://github.com/mziyabo)
 
 
-Checkout more on [GitHub](https://github.com/mziyabo).
+
+### [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1) [![powershellgallery](https://img.shields.io/powershellgallery/v/PSKubectlCompletion.svg)](https://www.powershellgallery.com/packages/PSKubectlCompletion) 
+kubectl auto-completion module for PowerShell 
+
+
+### [argocd-aws-secret-plugin](https://github.com/mziyabo/argocd-aws-secret-plugin): 
+Argo CD - AWS Secret Manager(ASM) Plugin
+
+### [cdk8s-xray](https://www.npmjs.com/package/cdk8s-xray)  [![NPM Version](https://img.shields.io/npm/v/cdk8s-xray.svg)](https://npmjs.org/package/cdk8s-xray) 
+AWS X-Ray [cdk8s](https://cdk8s.io/) construct
+
+### [vscode-codedeploy](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy)    [![Marketplace Version](https://img.shields.io/vscode-marketplace/v/mziyabo.vscode-codedeploy.svg)]((https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy&ssr=false#overview))
+VSCode extension to deploy and manage [AWS CodeDeploy](https://aws.amazon.com/codedeploy/) applications
+
+### [vscode-sentiment](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) [![Marketplace Version](https://img.shields.io/vscode-marketplace/v/mziyabo.vscode-sentiment.svg)](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-sentiment) 
+Sentiment analysis extension for VSCode based on the [AFINN word list](http://corpustext.com/reference/sentiment_afinn.html).
+
+### [headless-sso](https://pkg.go.dev/github.com/mziyabo/headless-sso) [![Go Reference](https://pkg.go.dev/badge/github.com/mziyabo/headless-sso.svg)](https://pkg.go.dev/github.com/mziyabo/headless-sso)
+Cmdline application written in `Go` to run the [aws sso login](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/login.html) in headless mode
 </div>
 
