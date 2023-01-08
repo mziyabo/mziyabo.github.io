@@ -7,7 +7,7 @@ tags: ["AWS SSO","headless-sso","awscli", "golang"]
 comments: true
 ---
 
-[AWS Single Sign-On (AWS SSO)](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) allows SSO users to sign-in using the the awscli via the `aws sso login` command. As part of the typical login flow, a browser (default browser, unless `BROWSER` environment variable  exists) is launched for the user to perform a number of verification and authorization steps.
+[AWS Single Sign-On (AWS SSO)](https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html) allows SSO users to sign-in using the awscli via the `aws sso login` command. As part of the typical login flow, a browser (default browser, unless `BROWSER` environment variable  exists) is launched for the user to perform a number of verification and authorization steps.
 
 This [neatly illustrated sequence diagram](https://twitter.com/ben11kehoe/status/1260646764966670337) explaining the login flow provides a good overview of the process.
 
