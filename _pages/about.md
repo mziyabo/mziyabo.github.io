@@ -21,11 +21,11 @@ Hello 👋🏽, My name is Mziyabo - I'm a Software Engineer and an avid Boston 
 
 <hr/>
 
-#### [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1) [![powershellgallery](https://img.shields.io/powershellgallery/v/PSKubectlCompletion.svg)](https://www.powershellgallery.com/packages/PSKubectlCompletion) 
-kubectl auto-completion module for PowerShell 
-
 #### [vscode-codedeploy](https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy)    [![Marketplace Version](https://img.shields.io/vscode-marketplace/v/mziyabo.vscode-codedeploy.svg)]((https://marketplace.visualstudio.com/items?itemName=mziyabo.vscode-codedeploy&ssr=false#overview))
 VSCode extension to deploy and manage [AWS CodeDeploy](https://aws.amazon.com/codedeploy/) applications
+
+#### [PSKubectlCompletion](https://www.powershellgallery.com/packages/PSKubectlCompletion/0.0.1) [![powershellgallery](https://img.shields.io/powershellgallery/v/PSKubectlCompletion.svg)](https://www.powershellgallery.com/packages/PSKubectlCompletion) 
+kubectl auto-completion module for PowerShell 
 
 #### [argocd-aws-secret-plugin](https://github.com/mziyabo/argocd-aws-secret-plugin): 
 Argo CD - AWS Secret Manager(ASM) Plugin
