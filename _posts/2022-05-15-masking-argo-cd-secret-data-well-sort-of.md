@@ -7,7 +7,7 @@ tags: ["argocd"]
 comments: true
 ---
 
-`Argo CD` has this peculiarity were sensitive data can get leaked out by the UI in *Live Manifests or DIFFs*. So even if you used something like [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) which allows you inject the secret with a placeholder that gets pulled and  replaced at deployment time, the Argo CD generated manifests will eventually reveal the secret in some part of the UI.
+`Argo CD` has this peculiarity were sensitive data can sometimes get leaked out by the UI in *Live Manifests or DIFFs*. So even if you used something like [argocd-vault-plugin](https://github.com/argoproj-labs/argocd-vault-plugin) which injects a secret to replace a placeholder, the Argo CD generated manifests may eventually reveal the secret in some part of the UI.
 
 
 To mask the data which shows up on Live Manifests and DIFFs, I wrote a masking proxy, [argocd-masking-proxy](https://github.com/mziyabo/argocd-masking-proxy), which does a regex match and replace on a pattern of the sensitive data we wanted to mask out with asterisks in the UI.
