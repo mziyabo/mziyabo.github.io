@@ -17,7 +17,7 @@ permalink: /about/
 </figure> -->
 {:/}
 
-Hello 👋🏽, My name is Mziyabo - I'm a Software Engineer and an avid Boston Celtics fan. I [blog here](/articles), and have written a few Open Source projects which you can also checkout on [GitHub](https://github.com/mziyabo)
+Hello 👋🏽, My name is Mziyabo - I'm a Software Engineer and an avid Boston Celtics fan. I [blog](/articles), and have written a few open source projects which you can also checkout on [GitHub](https://github.com/mziyabo)
 
 <hr/>
 
@@ -30,7 +30,7 @@ kubectl auto-completion module for PowerShell
 #### [argocd-aws-secret-plugin](https://github.com/mziyabo/argocd-aws-secret-plugin): 
 Argo CD - AWS Secret Manager(ASM) Plugin
 
-#### [headless-sso](https://pkg.go.dev/github.com/mziyabo/headless-sso) [![Go Reference](https://pkg.go.dev/badge/github.com/mziyabo/headless-sso.svg)](https://pkg.go.dev/github.com/mziyabo/headless-sso)
+#### [headless-sso](https://pkg.go.dev/github.com/mziyabo/headless-sso)
 Cmdline application written in `Go` to run the [aws sso login](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sso/login.html) in headless mode
 
 #### [cdk8s-xray](https://www.npmjs.com/package/cdk8s-xray)  [![NPM Version](https://img.shields.io/npm/v/cdk8s-xray.svg)](https://npmjs.org/package/cdk8s-xray) 
