@@ -20,7 +20,7 @@ The UI extension comprises two `React` components, a searchable, sortable, grid 
 
 <img alt="vulnerabilities dashboard" src="../../assets/img/vuln-dashboard.png" width="85%"/>
 
-Detailed installation instructions are in the project [README](https://github.com/mziyabo/argocd-trivy-extension) but involved loading the extension into the Argo CD server pods via an init container using the [argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer).
+Detailed installation instructions are in the project [README](https://github.com/mziyabo/argocd-trivy-extension) and involves loading the extension into the Argo CD server pods via an init container using the [argocd-extension-installer](https://github.com/argoproj-labs/argocd-extension-installer).
 
 A quick but dirty test can be achieved by copying the extension via `kubectl cp` into the Argo CD servers `/tmp/extension/` path.
 
