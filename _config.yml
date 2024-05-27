@@ -1,10 +1,11 @@
 
 # Site settings
 title: Mziyabo's blog              # used for the html title of every page
-desc: 'Industry Learnings, projects and some outside-of work interests'
+desc: 'Learnings, projects and some outside-of work interests'
 url:  'https://mziyabo.co'     # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/ #how should we display posts url
+site_image: http://mziyabo.co/assets/img/og-image.PNG
 
 # Meta settings
 email: mziyabo@live.com

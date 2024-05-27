@@ -5,6 +5,7 @@ description: "UI extension for visualizing and displaying trivy report data"
 category: "Security"
 tags: argocd,trivy
 comments: true
+image: "/assets/img/vuln-dashboard.png"
 ---
 
 After installing the [Trivy Operator](https://aquasecurity.github.io/trivy-operator), an open-source security scanner, into my Kubernetes cluster, I noticed the reports could get pretty big and would need some tool to parse them. 
