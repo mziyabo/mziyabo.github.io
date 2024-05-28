@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Argo CD UI extension for Trivy Vulnerabilities"
-description: "UI extension for visualizing and displaying trivy report data"
+description: "ArgoCD UI extension for visualizing and displaying Trivy report data"
 category: "Security"
 tags: argocd,trivy
 comments: true

@@ -1,6 +1,6 @@
 ---
 title: "Applying Apache Kafka Integration in Microsoft Dynamics CRM"
-description: ""
+description: "Applying Apache Kafka Integration in Microsoft Dynamics CRM"
 category: Microsoft Dynamics CRM
 tags: [Microsoft Dynamics CRM, Integration]
 comments: true

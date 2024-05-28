@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "EKS Fargate sidecar injection using mutating webhooks"
-description: "Using Kubernetes mutating webhooks to perform sidecar injection on fargate pods"
+description: "Using Kubernetes mutating webhooks to perform sidecar injection on Fargate pods"
 category: 
 tags: ["aws","fargate","eks","mutating webhook","kubernetes"]
 comments: true

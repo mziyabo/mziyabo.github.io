@@ -1,6 +1,6 @@
 ---
 title: "Adding Dynamics CRM xrm object model intellisense to VSCode"
-description: ""
+description: "Adding Dynamics CRM xrm object model intellisense to VSCode"
 category: 
 tags: [Microsoft Dynamics CRM, JavaScript]
 comments: true

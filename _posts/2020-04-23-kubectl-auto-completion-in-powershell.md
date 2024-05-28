@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "PowerShell kubectl autocomplete"
-description: "kubectl tab-completion in PowerShell"
+description: "kubectl auto-completion in PowerShell"
 category: 
 tags: [PSKubectlCompletion,kubectl,PowerShell,auto-completion,tab-completion]
 comments: true
