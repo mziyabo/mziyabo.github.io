@@ -8,9 +8,9 @@ comments: true
 image: "/assets/img/vuln-dashboard.png"
 ---
 
-After installing the [Trivy Operator](https://aquasecurity.github.io/trivy-operator), an open-source security scanner, in my Kubernetes cluster, I noticed the JSON reports could get pretty big and would need some tool to parse them. 
+After installing the [Trivy Operator](https://aquasecurity.github.io/trivy-operator), an open-source security scanner, into my Kubernetes cluster, I noticed the JSON reports could get pretty big and would need some tool to parse them. 
 
-My preference was to view the data in `Argo CD`, largely out of `Argo CD` being an *almost* defacto Kubernetes user-interface for cluster admins and developers.
+My preference was to view the data in `Argo CD`, largely out of `Argo CD` being an *almost* default Kubernetes interface for cluster admins and developers.
 
 Consequently, to vizualize and get better search over the `Trivy` vulnerabilities, I wrote an Argo CD UI extension, [argocd-trivy-extension](https://github.com/mziyabo/argocd-trivy-extension).
 
