@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
   <!-- Graph meta -->
-  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:type" content="blog">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}|{{ site.title }}{% else %}{{ site.title }}{% endif %}">
